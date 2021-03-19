@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "roomName": "Standard Single Room",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4eLs7ipS-lHTZPtOgkCezoJeOLdEqSKXvkg&usqp=CAU",
+    "description": "Standard Single ROoms are designed in open. Concept living area and many facility",
+    "amount": 300
+      }, {
+    "id": 2,
+    "roomName": "Couple Power Room",
+    "img": "https://www.matala-sofia.com/_gfx/slider/1.jpg",
+    "description": "Super Double ROoms are prefectfullyu have",
+    "amount": 500
+  }, {
+    "id": 3,
+    "roomName": "Family Capacity Room",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsikeB-6hsfaCrYJx8CWEtqXNbLBuZuMlY4Q&usqp=CAU",
+    "description": "This is family capacity room this is given for they coppole",
+    "amount": 600
+  }]

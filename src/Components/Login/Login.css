@@ -1,0 +1,8 @@
+.from{
+background-color: #8fb1cf;
+padding: 20px;
+margin: auto;
+display: grid;
+place-content: center;
+box-shadow: 13px 10px 5px #ddd;
+}
