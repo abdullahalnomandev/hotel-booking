@@ -43,7 +43,8 @@ const Login = () => {
                 var { displayName, email } = result.user;
                 const logInUSer = { name: displayName, email: email }
                 setLogInUser(logInUSer);
-                history.replace(from);
+                storeAuthTocan()
+               
          
             })
             .catch((error) => {
@@ -171,6 +172,19 @@ const Login = () => {
         });
     }
 
+
+    // storeAuthTocan
+    const storeAuthTocan=()=>{
+
+        firebase.auth().currentUser.getIdToken(/* forceRefresh */ true)
+        .then(function(idToken) {
+           sessionStorage.setItem('token',idToken)
+           history.replace(from);
+          }).catch(function(error) {
+            // Handle error
+          });
+
+    }
     return (
         <div className="from">
             <div style={{ textAlign: 'center' }}>
